@@ -1,0 +1,84 @@
+
+
+.header.sticky{
+	padding: 15px 0;
+	background: #000;
+}
+
+a{
+	text-decoration: none;
+}
+.hr{
+	position: relative; 
+	top: -180px;
+	border: 0;
+  	border-bottom: 5px solid #000080;
+  	height: 3px;
+
+  }
+
+.section_title{
+	font-weight: 500;
+	position: relative;
+	top: -140px;
+}
+
+.title{
+	position: relative;
+	top: -140px;
+}
+
+.position{
+	position: relative;
+	top: -155px;
+	font-size: 20px;
+}
+
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid lightgrey;
+  }
+
+section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.job {
+  margin-top: -3px;
+  padding-bottom: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.award{
+  margin-top: -3px;
+  padding-bottom: none;
+  margin-bottom: 10px;
+
+}
+
+.job:last-child, .award:last-child  {
+  border-bottom: none;
+  margin-bottom: -5px;
+}
+
+.job-title-container, .award-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -10px;
+  font-size: 18px;
+}
+
+.job-company {
+  font-weight: bold;
+  line-height: 1.2;
+}

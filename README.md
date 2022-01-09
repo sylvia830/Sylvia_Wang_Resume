@@ -11,4 +11,4 @@ Feel free to check it out at https://sylvia830.github.io/Sylvia_Wang_Resume/
 
 It is still a work in process :D 
 
-(as a matter of fact, I'm going to update it tomorrow morning or afternoon or maybe evening. Anyway, good night!)
+

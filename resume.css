@@ -1,8 +1,31 @@
-
+@page {
+  size: A4;
+  margin: 0;
+}
+/*@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+*/
 
 .header.sticky{
 	padding: 15px 0;
 	background: #000;
+}
+
+.header-titles{
+  width:65%;
+  margin-left:none;
+  text-align: left;
+  float: left;
+}
+.header-image{
+  width:20%;
+  margin-top: none;
+  margin-right:130px;
+  text-align:left;
+  float: right;
 }
 
 a{
